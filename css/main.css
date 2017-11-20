@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Courier New, Courier, monospace;
+    font-size: 16px;
+}
+body {
+    height: 100vh;
+    background: rgb(19,134,198);
+}
+/* colors header */
+.header {
+    background: rgb(2,106,167);
+    width: 100%;
+    height: 45px
+}
+
+.container {
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.fa-trello {
+    color: white;
+    margin-left: 2rem;
+    padding-right:1rem; 
+    padding-left:1rem; 
+    margin-top: 6px;
+    height: 34px;
+    background-color: rgb(78,151,193);
+    border-radius: 3%;
+}
+
+.tablero {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+.input {
+    display: inline-block;
+    padding-bottom: -3px;
+    padding-top: 4px;
+    height: 30px;
+    background-color: rgb(78,151,193);
+    border-radius: 3%;
+}
+
+.input_box {
+    background-color: rgb(78,151,193);
+    border:  none;
+    height: 20px;
+}
+.fa-search {
+   margin-top: 4px;
+   padding-right: 4px; 
+   
+    
+}
+/* logo */
+.trello {
+    display: inline-block;
+    margin-left: 15rem;
+}
+/* icon  */
+div.icon {
+    display: inline-block;
+    margin-left: 20rem;
+}
+.trello .fa-trello {
+    font-size: 20px;
+    background-color: rgb(2,106,167);
+    border-radius: 10%;
+}
+
+
+.list  {
+    display: inline-block; 
+    font-size:1.2rem;
+    padding-left:5px;  
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+.icon i:hover {
+    background: rgb(19,134,198);
+}
+
+.icon .fa {
+    border-radius: 10%;
+    border: 1px solid rgb(78,151,193);
+    padding: 4px;
+    background-color: rgb(78,151,193);
+}
+
+/* Menú */
+
+.menu {
+    display: inline-block;
+    margin: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.menu_left{
+    display: inline-block;
+    padding-right: 2rem;
+}
+.menu_r {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin-left: 40rem;;
+}
+.menu_right {
+    display: inline-block;
+}
+.menu_right p {
+    text-decoration: underline;
+}
+/* creando tableros */
+.input_note {
+margin: 1rem;
+}
+.textarea {
+    margin-left: 1rem;
+    margin-top:inherit; 
+    padding: 0; 
+}
